@@ -1,0 +1,126 @@
+version: "2.0"
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - faq/apply_permit
+  - faq/need_permit
+  - faq/when_permit
+  - faq/pay_permit
+  - faq/money_back
+  - faq/permit_process_time
+  - faq/med_exam
+  - faq/cas_letter
+  - faq/schoolchange_permitchange
+  - faq/travel_outside_uk
+  - faq/req_univ
+  - faq/long_master
+  - faq/health_ins
+  - faq/benefits_pr
+  - faq/apply_univ
+  - faq/age_limit
+  - faq/work_during_studies
+  - faq/refused_visa
+  - faq/extend_visa
+  - faq/cost_living
+  - faq/lang_req
+  - faq/lose_brp
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+  utter_affirm:
+    - text: "Great!"
+  utter_deny:
+    - text: "Okay, no problem."
+  utter_mood_great:
+    - text: "I'm glad to hear that!"
+  utter_mood_unhappy:
+    - text: "I'm sorry to hear that. How can I help to improve your mood?"
+  utter_bot_challenge:
+    - text: "I am an AI assistant here to help you with UK student visa inquiries."
+  utter_happy:
+    - text: "That sounds great! How can I assist you further?"
+  utter_cheer_up:
+    - text: "Cheer up! I'm here to help you with any questions you have about UK student visas."
+  utter_iamabot:
+    - text: "I am an AI assistant designed to help with questions about UK student visas."
+
+  utter_faq/apply_permit:
+    - text: "To apply for a UK student visa, you need to complete the online application form, pay the visa fee, and schedule an appointment at a visa application center."
+  utter_faq/need_permit:
+    - text: "Yes, you need a student visa to study in the UK if you are from a non-EU/EEA country."
+  utter_faq/when_permit:
+    - text: "It is advisable to apply for your student visa at least three months before your course start date."
+  utter_faq/pay_permit:
+    - text: "The fee for a UK student visa is currently £348 if you are applying from outside the UK."
+  utter_faq/money_back:
+    - text: "Unfortunately, the visa fee is non-refundable even if your application is refused."
+  utter_faq/permit_process_time:
+    - text: "The processing time for a UK student visa is usually three weeks from the date you submit your application."
+  utter_faq/med_exam:
+    - text: "You might need to provide a medical examination report if you are studying in the UK for more than six months."
+  utter_faq/cas_letter:
+    - text: "A CAS (Confirmation of Acceptance for Studies) letter is a document issued by your UK educational institution, confirming that you have been accepted onto a course of study."
+  utter_faq/schoolchange_permitchange:
+    - text: "Yes, you can change your course or university, but you must inform the Home Office and possibly apply for a new visa."
+  utter_faq/travel_outside_uk:
+    - text: "You can travel outside the UK during your studies, but make sure your visa and passport are valid for re-entry."
+  utter_faq/req_univ:
+    - text: "To get a student visa, you need a CAS from a licensed sponsor, proof of funds, and possibly a valid ATAS certificate."
+  utter_faq/long_master:
+    - text: "A master's degree in the UK typically lasts one year, although some courses may be longer."
+  utter_faq/health_ins:
+    - text: "Yes, you need health insurance to study in the UK, and you may need to pay the Immigration Health Surcharge (IHS)."
+  utter_faq/benefits_pr:
+    - text: "Having a UK student visa allows you to study in the UK, work part-time during your studies, and travel in and out of the UK."
+  utter_faq/apply_univ:
+    - text: "To apply to a UK university, you need to choose a course, check the entry requirements, and submit an application through UCAS or directly to the university."
+  utter_faq/age_limit:
+    - text: "There is no specific age limit for a UK student visa, but you must meet the course requirements and prove that you can support yourself financially."
+  utter_faq/work_during_studies:
+    - text: "You can work up to 20 hours per week during term time and full-time during holidays with a UK student visa."
+  utter_faq/refused_visa:
+    - text: "If your visa application is refused, you can either reapply or appeal the decision, depending on the reason for refusal."
+  utter_faq/extend_visa:
+    - text: "To extend your student visa, you need to apply online before your current visa expires, providing evidence of your continued studies and financial support."
+  utter_faq/cost_living:
+    - text: "The cost of living for students in the UK varies, but you should budget around £1,015 per month outside London and £1,265 per month in London."
+  utter_faq/lang_req:
+    - text: "You need to prove your English proficiency for a UK student visa, usually through a recognized test like IELTS."
+  utter_faq/lose_brp:
+    - text: "If you lose your BRP card, you must report it to the Home Office and apply for a replacement as soon as possible."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_apply_permit
+  - action_need_permit
+  - action_when_permit
+  - action_pay_permit
+  - action_money_back
+  - action_permit_process_time
+  - action_med_exam
+  - action_cas_letter
+  - action_schoolchange_permitchange
+  - action_travel_outside_uk
+  - action_req_univ
+  - action_long_master
+  - action_health_ins
+  - action_benefits_pr
+  - action_apply_univ
+  - action_age_limit
+  - action_work_during_studies
+  - action_refused_visa
+  - action_extend_visa
+  - action_cost_living
+  - action_lang_req
+  - action_lose_brp

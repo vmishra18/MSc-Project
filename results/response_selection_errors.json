@@ -1,0 +1,10 @@
+[
+  {
+    "text": "What do I need to study at a UK university?",
+    "intent_response_key_target": "faq/req_univ",
+    "intent_response_key_prediction": {
+      "name": "faq/apply_univ",
+      "confidence": 0.5702110528945923
+    }
+  }
+]

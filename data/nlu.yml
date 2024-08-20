@@ -1,0 +1,124 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+- intent: mood_great
+  examples: |
+    - I am feeling great
+    - I am doing good
+- intent: mood_unhappy
+  examples: |
+    - I am feeling down
+    - I am sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you human?
+- intent: faq/apply_permit
+  examples: |
+    - How do I apply for a UK student visa?
+    - What is the process to apply for a UK student visa?
+- intent: faq/need_permit
+  examples: |
+    - Do I need a visa to study in the UK?
+    - Is a visa required for studying in the UK?
+- intent: faq/when_permit
+  examples: |
+    - When should I apply for my student visa?
+    - What is the best time to apply for a student visa?
+- intent: faq/pay_permit
+  examples: |
+    - How much does the student visa cost?
+    - What is the fee for a UK student visa?
+- intent: faq/money_back
+  examples: |
+    - Can I get my visa fee back if my application is refused?
+    - Is the visa fee refundable if my application is rejected?
+- intent: faq/permit_process_time
+  examples: |
+    - How long does it take to process a student visa application?
+    - What is the processing time for a UK student visa?
+- intent: faq/med_exam
+  examples: |
+    - Do I need a medical exam to study in the UK?
+    - Is a medical examination required for a UK student visa?
+- intent: faq/cas_letter
+  examples: |
+    - What is a CAS letter?
+    - Can you explain the CAS letter?
+- intent: faq/schoolchange_permitchange
+  examples: |
+    - Can I change my course or university after getting a visa?
+    - Is it possible to switch schools after obtaining a student visa?
+- intent: faq/travel_outside_uk
+  examples: |
+    - Can I travel outside the UK during my studies?
+    - Am I allowed to leave the UK while studying?
+- intent: faq/req_univ
+  examples: |
+    - What are the requirements to get a student visa?
+    - What do I need to study at a UK university?
+- intent: faq/long_master
+  examples: |
+    - How long does a master's degree last in the UK?
+    - What is the duration of a master's program in the UK?
+- intent: faq/health_ins
+  examples: |
+    - Do I need health insurance to study in the UK?
+    - Is health insurance mandatory for UK students?
+- intent: faq/benefits_pr
+  examples: |
+    - What are the benefits of having a UK student visa?
+    - Why should I get a UK student visa?
+- intent: faq/apply_univ
+  examples: |
+    - How can I apply to a UK university?
+    - What is the application process for UK universities?
+- intent: faq/age_limit
+  examples: |
+    - Is there an age limit to study in the UK?
+    - What is the age limit for a UK student visa?
+- intent: faq/work_during_studies
+  examples: |
+    - Can I work while studying in the UK?
+    - Am I allowed to work with a UK student visa?
+- intent: faq/refused_visa
+  examples: |
+    - What should I do if my visa application is refused?
+    - What are my options if my student visa is denied?
+- intent: faq/extend_visa
+  examples: |
+    - How do I extend my student visa?
+    - What is the process to extend a UK student visa?
+- intent: faq/cost_living
+  examples: |
+    - What is the cost of living for students in the UK?
+    - How much should I budget for living expenses in the UK?
+- intent: faq/lang_req
+  examples: |
+    - What are the language requirements for studying in the UK?
+    - Do I need to prove my English proficiency for a UK student visa?
+- intent: faq/lose_brp
+  examples: |
+    - What should I do if I lose my BRP card?
+    - How do I replace a lost BRP card?
