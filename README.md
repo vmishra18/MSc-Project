@@ -1,2 +1,1 @@
-# MSc-Project
-MSC Project
+UK Immigration Study Bot
